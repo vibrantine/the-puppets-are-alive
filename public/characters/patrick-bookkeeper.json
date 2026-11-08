@@ -1,0 +1,54 @@
+{
+  "name": "patrick-bookkeeper",
+  "head": {
+    "model": "woodenHeadWithSidePart",
+    "materials": {
+      "wood": {
+        "h": 28.7,
+        "s": 66.67,
+        "b": 54.12
+      },
+      "eyes": {
+        "h": 270,
+        "s": 24,
+        "b": 9.8
+      },
+      "hair": {
+        "h": 22,
+        "s": 48,
+        "b": 29
+      }
+    }
+  },
+  "body": {
+    "model": "gloveWithTie",
+    "materials": {
+      "cloth": {
+        "h": 210,
+        "s": 16,
+        "b": 82
+      },
+      "thread": {
+        "h": 210,
+        "s": 8,
+        "b": 94
+      },
+      "tie": {
+        "h": 218,
+        "s": 70,
+        "b": 28
+      }
+    }
+  },
+  "profile": {
+    "spokenName": "Patrick",
+    "aliases": [
+      "man with tie",
+      "Patrick Doyle",
+      "man in the tie",
+      "man with the tie",
+      "man in blue"
+    ],
+    "brief": "Weary professional. Practical, measured, plainspoken and deadpan. Irritation shortens his sentences. Quietly helps while grumbling about the inconvenience."
+  }
+}

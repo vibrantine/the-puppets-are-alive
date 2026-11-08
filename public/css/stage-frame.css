@@ -1,0 +1,37 @@
+/* A plain proscenium blockout, owned by the stage container rather than p5.
+   Padding reserves space OUTSIDE the canvas for the header and side posts.
+   The full rendered scene therefore stays visible, including hats and hands.
+   There is no bottom rail. Replace this decoration with artwork later without
+   changing the scene, puppets or camera. */
+.stage-frame {
+  --frame-post: clamp(10px, 1.8vw, 18px);
+  --frame-header: clamp(16px, 2.8vw, 28px);
+  position: relative;
+  isolation: isolate;
+  padding: var(--frame-header) var(--frame-post) 0;
+}
+
+/* The transparent opening covers exactly the canvas. Decorative borders occupy
+   only the reserved padding; they cannot intercept mouse or touch input. */
+.stage-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-style: solid;
+  border-width: var(--frame-header) var(--frame-post) 0;
+  border-color: #896b4e #69503b transparent #795b40;
+  box-shadow: 0 5px 14px #0003;
+  pointer-events: none;
+}
+
+/* A small painted highlight marks the upper timber edge, wholly above the set. */
+.stage-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+  z-index: 2;
+  background: #b09873;
+  pointer-events: none;
+}

@@ -1,0 +1,74 @@
+{
+  "title": "After the scream",
+  "premise": "After the Producer is murdered in the wings, Arthur Christie invites the viewer to investigate. He introduces Patrick, Claire and Evelyn and explains why each is a suspect, then summons them individually for an alibi. Treat their accounts and proposed corroboration as claims until investigated. Follow the viewer's choice of witness or clue and keep the culprit secret during the opening.",
+  "background": {
+    "h": 38,
+    "s": 30,
+    "b": 88
+  },
+  "cast": [
+    {
+      "character": "arthur-investigator",
+      "name": "arthur-investigator",
+      "role": "Investigates the death with the audience. Knows the public premise.",
+      "x": 315,
+      "y": 365,
+      "z": 180,
+      "looksAt": null
+    },
+    {
+      "character": "patrick-bookkeeper",
+      "name": "patrick-bookkeeper",
+      "role": "Handles the company's accounts and depends on the Producer for work.",
+      "x": 535,
+      "y": 365,
+      "z": -195,
+      "looksAt": "arthur-investigator"
+    },
+    {
+      "character": "claire-leading-lady",
+      "name": "claire-leading-lady",
+      "role": "The company's leading lady and the Producer's old friend.",
+      "x": 775,
+      "y": 365,
+      "z": -195,
+      "looksAt": "patrick-bookkeeper"
+    },
+    {
+      "character": "evelyn-stage-manager",
+      "name": "evelyn-stage-manager",
+      "role": "The stage manager and the Producer's estranged relative.",
+      "x": 1015,
+      "y": 365,
+      "z": -195,
+      "looksAt": "arthur-investigator"
+    }
+  ],
+  "backdrop": {
+    "wallImage": "assets/stage/light-wood-wall.png",
+    "radius": 760,
+    "arcDegrees": 170,
+    "wallHeight": 700,
+    "centreZ": 160,
+    "floorY": 365,
+    "floorFrontZ": 440,
+    "floorColour": {
+      "h": 30,
+      "s": 38,
+      "b": 49
+    }
+  },
+  "privateInterrogation": {
+    "wallColour": { "h": 178, "s": 70, "b": 43 },
+    "investigatorMark": { "x": 385, "y": 365, "z": 165 },
+    "suspectMark": { "x": 615, "y": 365, "z": 165 }
+  },
+  "questioning": {
+    "investigator": "arthur-investigator",
+    "conversationPosition": {
+      "x": 565,
+      "y": 365,
+      "z": 180
+    }
+  }
+}

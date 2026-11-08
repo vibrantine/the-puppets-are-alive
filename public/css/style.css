@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #22262a; color: #fcf2dd; font: 1rem/1.45 system-ui, sans-serif; }
+
+/* The canvas is 1000 by 470. On shorter screens, reserve space for the
+   controls and subtitles before choosing how wide to draw the stage. */
+main {
+  width: min(100%, 1000px, max(320px, calc((100dvh - 10rem) / .47)));
+  margin: .5rem auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "title controls" "stage stage" "note note" "caption caption" "hint hint";
+  align-items: center;
+}
+h1 { grid-area: title; margin: 0; padding: .35rem .75rem; font: normal clamp(1.15rem, 2.5vw, 1.6rem) Georgia, serif; }
+#stage { grid-area: stage; min-width: 0; }
+canvas { display: block; width: 100% !important; height: auto !important; }
+p { padding: 0 .75rem; margin: .3rem 0 0; }
+#caption { grid-area: caption; font-size: clamp(.9375rem, 1.6vw, 1.0625rem); line-height: 1.35; }
+#hint { grid-area: hint; color: #e5cc9b; font-size: .875rem; }
+#start-note { grid-area: note; }
+.performance-controls { grid-area: controls; display: flex; align-items: center; justify-content: flex-end; gap: .5rem; padding: .3rem .75rem; }
+button { font: inherit; color: inherit; background: transparent; border: 1px solid #b7aa91; border-radius: 4px; padding: .3rem .75rem; cursor: pointer; }
+button:hover { background: #34393d; }
+button:disabled { opacity: .5; cursor: wait; }
+[hidden] { display: none !important; }
+#microphone-status, #start-note { font-size: .85rem; color: #c5beae; }
+#microphone-status { order: -1; }

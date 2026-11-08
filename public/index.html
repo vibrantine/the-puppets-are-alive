@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puppet Theatre</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%8E%AD%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stage-frame.css">
+  <link rel="stylesheet" href="css/curtain.css">
+  <script src="js/p5.min.js"></script>
+  <script src="js/addons/p5.sound.min.js"></script>
+</head>
+<body>
+  <main>
+    <h1 id="scene-title">Puppet Theatre</h1>
+    <div id="stage" class="stage-frame">
+      <div class="stage-curtain" aria-hidden="true">
+        <div class="curtain-panel curtain-panel--left"><img src="assets/stage/curtain-broad-velvet.png" alt="" draggable="false"></div>
+        <div class="curtain-panel curtain-panel--right"><img src="assets/stage/curtain-broad-velvet.png" alt="" draggable="false"></div>
+      </div>
+    </div>
+    <div class="performance-controls">
+      <button type="button" id="live" disabled>Start show</button>
+      <button type="button" id="end" hidden>End show</button>
+      <span id="microphone-status" role="status"></span>
+    </div>
+    <p id="start-note">Your microphone listens during the show. Speak naturally to interrupt.</p>
+    <p id="caption" aria-live="polite"></p>
+    <p id="hint">Loading the cast…</p>
+  </main>
+  <script src="js/puppet/PuppetRenderer.js"></script>
+  <script src="js/puppet/emotions/neutral.js"></script>
+  <script src="js/puppet/emotions/happy.js"></script>
+  <script src="js/puppet/emotions/sad.js"></script>
+  <script src="js/puppet/emotions/angry.js"></script>
+  <script src="js/puppet/emotions/afraid.js"></script>
+  <script src="js/puppet/emotions/surprised.js"></script>
+  <script src="js/puppet/ExpressionPlayer.js"></script>
+  <script src="js/puppet/Puppet.js"></script>
+  <script src="js/performance/TheatreAPI.js"></script>
+  <script src="js/performance/Director.js"></script>
+  <script src="js/performance/VoiceSession.js"></script>
+  <script src="js/performance/LiveActor.js"></script>
+  <script src="js/performance/AudienceInput.js"></script>
+  <script src="js/stage/FloorTexture.js"></script>
+  <script src="js/stage/StageBackdrop.js"></script>
+  <script src="js/stage/SuspectQuestioning.js"></script>
+  <script src="js/performance/PrivateInterrogation.js"></script>
+  <script src="js/performance/StoryProgress.js"></script>
+  <script src="js/Scene.js"></script>
+  <script src="js/stage/Curtain.js"></script>
+  <script src="js/Show.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>

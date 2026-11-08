@@ -1,0 +1,59 @@
+{
+  "name": "claire-leading-lady",
+  "head": {
+    "model": "woodenHeadWithFloppyHat",
+    "materials": {
+      "wood": {
+        "h": 28.7,
+        "s": 66.67,
+        "b": 54.12
+      },
+      "eyes": {
+        "h": 270,
+        "s": 24,
+        "b": 9.8
+      },
+      "hat": {
+        "h": 280,
+        "s": 72,
+        "b": 53
+      },
+      "hatRibbon": {
+        "h": 43,
+        "s": 48,
+        "b": 72
+      }
+    }
+  },
+  "body": {
+    "model": "gloveWithScarf",
+    "materials": {
+      "cloth": {
+        "h": 280,
+        "s": 72,
+        "b": 53
+      },
+      "thread": {
+        "h": 280,
+        "s": 20,
+        "b": 88
+      },
+      "scarf": {
+        "h": 275,
+        "s": 30,
+        "b": 83
+      }
+    }
+  },
+  "profile": {
+    "spokenName": "Claire",
+    "aliases": [
+      "woman with floppy hat",
+      "Claire Nova",
+      "woman in purple",
+      "lady in purple",
+      "woman with the floppy hat"
+    ],
+    "brief": "Magnetic, vain leading lady. Expects attention and assumes she speaks for everyone. Rich theatrical diction and deliberate pauses. Becomes exquisitely polite under pressure. Sincere concern can break through."
+  }
+}

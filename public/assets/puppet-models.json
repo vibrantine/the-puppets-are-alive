@@ -1,0 +1,209 @@
+{
+  "woodenHead": {
+    "wood": [
+      "puppet/head.obj"
+    ],
+    "eyes": [
+      "accessories/eyes/meshes/eyes-rounded.obj"
+    ]
+  },
+  "woodenHeadWithCatEyeGlasses": {
+    "wood": [
+      "puppet/head.obj"
+    ],
+    "eyes": [
+      "accessories/eyes/meshes/eyes-rounded.obj"
+    ],
+    "frames": [
+      "accessories/glasses/cat-eye/meshes/cat-eye-soft-sweep.obj"
+    ]
+  },
+  "glove": {
+    "cloth": [
+      "puppet/body.obj",
+      "puppet/arm-left.obj",
+      "puppet/arm-right.obj"
+    ],
+    "thread": [
+      "puppet/body-stitches.obj",
+      "puppet/arm-left-stitches.obj",
+      "puppet/arm-right-stitches.obj"
+    ]
+  },
+  "blazerWithTie": {
+    "cloth": [
+      "puppet/body.obj"
+    ],
+    "jacket": [
+      "accessories/blazer/meshes/blazer-torso.obj",
+      "accessories/blazer/meshes/blazer-arm-left.obj",
+      "accessories/blazer/meshes/blazer-arm-right.obj"
+    ],
+    "lapels": [
+      "accessories/blazer/meshes/blazer-lapels.obj"
+    ],
+    "outline": [
+      "accessories/blazer/meshes/blazer-outline.obj"
+    ],
+    "tie": [
+      "accessories/neckwear/meshes/neckwear-tie-band.obj",
+      "accessories/neckwear/meshes/neckwear-tie-blade.obj",
+      "accessories/neckwear/meshes/neckwear-tie-knot.obj"
+    ],
+    "thread": [
+      "puppet/body-stitches.obj",
+      "accessories/blazer/meshes/blazer-stitches.obj",
+      "accessories/blazer/meshes/blazer-arm-left-stitches.obj",
+      "accessories/blazer/meshes/blazer-arm-right-stitches.obj"
+    ]
+  },
+  "woodenHeadWithFedora": {
+    "wood": [
+      "puppet/head.obj"
+    ],
+    "eyes": [
+      "accessories/eyes/meshes/eyes-rounded.obj"
+    ],
+    "hat": [
+      "accessories/hats/fedora/fedora.obj"
+    ],
+    "hatband": [
+      "accessories/hats/fedora/band.obj"
+    ]
+  },
+  "blazer": {
+    "cloth": [
+      "puppet/body.obj"
+    ],
+    "jacket": [
+      "accessories/blazer/meshes/blazer-torso.obj",
+      "accessories/blazer/meshes/blazer-arm-left.obj",
+      "accessories/blazer/meshes/blazer-arm-right.obj"
+    ],
+    "lapels": [
+      "accessories/blazer/meshes/blazer-lapels.obj"
+    ],
+    "outline": [
+      "accessories/blazer/meshes/blazer-outline.obj"
+    ],
+    "thread": [
+      "puppet/body-stitches.obj",
+      "accessories/blazer/meshes/blazer-stitches.obj",
+      "accessories/blazer/meshes/blazer-arm-left-stitches.obj",
+      "accessories/blazer/meshes/blazer-arm-right-stitches.obj"
+    ]
+  },
+  "woodenHeadWithSidePart": {
+    "wood": [
+      "puppet/head.obj"
+    ],
+    "eyes": [
+      "accessories/eyes/meshes/eyes-rounded.obj"
+    ],
+    "hair": [
+      "accessories/hair/side-part-study/cap-wave.obj"
+    ]
+  },
+  "gloveWithTie": {
+    "cloth": [
+      "puppet/body.obj",
+      "puppet/arm-left.obj",
+      "puppet/arm-right.obj"
+    ],
+    "thread": [
+      "puppet/body-stitches.obj",
+      "puppet/arm-left-stitches.obj",
+      "puppet/arm-right-stitches.obj"
+    ],
+    "tie": [
+      "accessories/neckwear/meshes/neckwear-tie-band.obj",
+      "accessories/neckwear/meshes/neckwear-tie-blade.obj",
+      "accessories/neckwear/meshes/neckwear-tie-knot.obj"
+    ]
+  },
+  "woodenHeadWithFloppyHat": {
+    "wood": [
+      "puppet/head.obj"
+    ],
+    "eyes": [
+      "accessories/eyes/meshes/eyes-rounded.obj"
+    ],
+    "hat": [
+      "accessories/hats/floppy-cloche/meshes/hat-floppy-shell.obj"
+    ],
+    "hatRibbon": [
+      "accessories/hats/floppy-cloche/meshes/hat-floppy-trim.obj"
+    ]
+  },
+  "gloveWithScarf": {
+    "cloth": [
+      "puppet/body.obj",
+      "puppet/arm-left.obj",
+      "puppet/arm-right.obj"
+    ],
+    "thread": [
+      "puppet/body-stitches.obj",
+      "puppet/arm-left-stitches.obj",
+      "puppet/arm-right-stitches.obj"
+    ],
+    "scarf": [
+      "accessories/neckwear/meshes/neckwear-wrap.obj",
+      "accessories/neckwear/meshes/neckwear-long-tail.obj",
+      "accessories/neckwear/meshes/neckwear-short-tail.obj"
+    ]
+  },
+  "woodenHeadWithClocheAndAtomicSunglasses": {
+    "wood": [
+      "puppet/head.obj"
+    ],
+    "eyes": [
+      "accessories/eyes/meshes/eyes-rounded.obj"
+    ],
+    "hat": [
+      "accessories/hats/floppy-cloche/meshes/hat-cloche-shell.obj"
+    ],
+    "hatband": [
+      "accessories/hats/floppy-cloche/meshes/hat-cloche-band.obj"
+    ],
+    "flower": [
+      "accessories/hats/floppy-cloche/meshes/hat-cloche-flower.obj"
+    ],
+    "flowerCentre": [
+      "accessories/hats/floppy-cloche/meshes/hat-cloche-gold.obj"
+    ],
+    "leaves": [
+      "accessories/hats/floppy-cloche/meshes/hat-cloche-leaves.obj"
+    ],
+    "frames": [
+      "accessories/glasses/cat-eye/meshes/cat-eye-atomic-wing.obj"
+    ],
+    "lenses": [
+      "accessories/glasses/cat-eye-sunglasses-study/atomic-wing-prototype-lenses.obj"
+    ],
+    "reflections": [
+      "accessories/glasses/cat-eye-sunglasses-study/atomic-wing-prototype-reflections.obj"
+    ]
+  },
+  "scallopJacket": {
+    "cloth": [
+      "puppet/body.obj"
+    ],
+    "jacket": [
+      "accessories/rounded-jackets/scallop/meshes/scallop-jacket-torso.obj",
+      "accessories/rounded-jackets/scallop/meshes/rounded-scallop-arm-left.obj",
+      "accessories/rounded-jackets/scallop/meshes/rounded-scallop-arm-right.obj"
+    ],
+    "buttons": [
+      "accessories/rounded-jackets/scallop/meshes/scallop-buttons.obj"
+    ],
+    "outline": [
+      "accessories/rounded-jackets/scallop/meshes/rounded-scallop-outline.obj"
+    ],
+    "thread": [
+      "puppet/body-stitches.obj",
+      "accessories/rounded-jackets/scallop/meshes/rounded-scallop-stitches.obj",
+      "accessories/rounded-jackets/scallop/meshes/rounded-scallop-arm-left-stitches.obj",
+      "accessories/rounded-jackets/scallop/meshes/rounded-scallop-arm-right-stitches.obj"
+    ]
+  }
+}

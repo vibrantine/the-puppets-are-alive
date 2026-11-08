@@ -1,0 +1,137 @@
+{
+  "interrogationBackup": {
+    "patrick-bookkeeper": {
+      "knownFacts": "Patrick, I heard the Producer ask you about the pay envelopes. Where were you when he screamed?",
+      "testimony": "Counting the till. I dropped sixpence when I heard him.",
+      "answer": "The heating grate. If the coin fell as I say, it ought to be down there."
+    },
+    "claire-leading-lady": {
+      "knownFacts": "Claire, the posters went up without your name. Where were you when you heard the Producer scream?",
+      "testimony": "At my dressing-room door. I had just peeled the C off my name.",
+      "answer": "Look at the door. The rest of my name should still be stuck there."
+    },
+    "evelyn-stage-manager": {
+      "knownFacts": "Evelyn, I saw his note asking you to come that evening. Where were you at the scream?",
+      "testimony": "On the fly floor, tying off the curtain rope. I felt it jump in my hands.",
+      "answer": "Look at my fingers. That rope took the skin off two of them."
+    }
+  },
+  "fixedFacts": [
+    "The Producer was murdered in the wings after addressing the audience. The viewer heard the scream and Arthur found the body.",
+    "Arthur overheard the Producer question Patrick about short pay envelopes.",
+    "Claire learned from the posters that she was off tomorrow's bill.",
+    "Arthur saw a note from the Producer summoning Evelyn that evening."
+  ],
+  "characterKnowledge": [
+    {
+      "character": "arthur-investigator",
+      "knows": [
+        "Knows the public facts. Has yet to verify where any suspect was at the scream."
+      ]
+    },
+    {
+      "character": "patrick-bookkeeper",
+      "knows": [
+        "His account is that he was counting the box-office till and dropped sixpence into the heating grate at the scream.",
+        "The Producer had challenged him over the pay envelopes."
+      ]
+    },
+    {
+      "character": "claire-leading-lady",
+      "knows": [
+        "Her account is that she was peeling her name from her dressing-room door and had removed only the C when she heard the scream.",
+        "She learned she was off the bill from the posters."
+      ]
+    },
+    {
+      "character": "evelyn-stage-manager",
+      "knows": [
+        "Her account is that she was on the fly floor securing the curtain rope, felt it jerk at the scream and hurt two fingers. She attributes the jerk to a pull from below.",
+        "The Producer had sent for her that evening."
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "type": "dialogue",
+      "speaker": "arthur-investigator",
+      "emotion": "sad",
+      "words": "[quietly, to the viewer] The Producer is dead. He walked into the wings, you heard him scream, and I found him there. Arthur Christie. I'd be glad of a second pair of eyes. We have three suspects."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "arthur-investigator",
+      "emotion": "neutral",
+      "words": "[in confidence] Patrick, the gentleman in the tie, keeps the books. This afternoon I heard the Producer ask him why the pay envelopes were light. Claire, in purple, is our leading lady. Until yesterday her name was on tomorrow's bill. She found out when the posters went up."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "arthur-investigator",
+      "emotion": "neutral",
+      "words": "[evenly] Evelyn, in the little red hat, runs the stage. She and the Producer were family. They barely spoke, but this evening he sent for her. I saw the note. Let's hear where each of them was when he screamed."
+    },
+    {
+      "type": "callSuspect",
+      "suspect": "patrick-bookkeeper",
+      "greeting": "handshake"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "arthur-investigator",
+      "emotion": "neutral",
+      "words": "[gently] Patrick. Where were you?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "patrick-bookkeeper",
+      "emotion": "afraid",
+      "words": "[plainly] Box office. Counting the till for the third time. When I heard him, I dropped sixpence down the heating grate. Put your ear to it and give it a kick. You'll hear what I'm worth."
+    },
+    {
+      "type": "callSuspect",
+      "suspect": "claire-leading-lady",
+      "greeting": "wave"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "arthur-investigator",
+      "emotion": "neutral",
+      "words": "[warmly] Claire, where did the scream find you?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "claire-leading-lady",
+      "emotion": "sad",
+      "words": "[with professional precision] At my dressing mirror, taking my name off the door. They'd put it up with gum. I had the C in my hand when he screamed. The rest is still there if you'd care to look."
+    },
+    {
+      "type": "callSuspect",
+      "suspect": "evelyn-stage-manager",
+      "greeting": "wave"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "arthur-investigator",
+      "emotion": "neutral",
+      "words": "[softly] Evelyn. Did you go when he sent for you?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "evelyn-stage-manager",
+      "emotion": "neutral",
+      "words": "[levelly] I was up on the fly floor, tying off the curtain rope. I felt it jump when he screamed. Whoever pulled it from below took the skin off two of my fingers."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "arthur-investigator",
+      "emotion": "neutral",
+      "words": "[to the viewer] A coin in a grate. A name on a door. A rope pulled from below. Whose story shall we check first?",
+      "action": {
+        "kind": "look"
+      }
+    },
+    {
+      "type": "endScene"
+    }
+  ]
+}

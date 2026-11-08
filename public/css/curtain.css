@@ -1,0 +1,33 @@
+/* Curtain fabric sits over the canvas, inside the wooden frame. Clip the
+   moving panels here so an open curtain cannot cover controls or cast edges. */
+.stage-curtain {
+  position: absolute;
+  inset: var(--frame-header) var(--frame-post) 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.curtain-panel {
+  position: absolute;
+  top: 0;
+  width: 52%;
+  height: 100%;
+}
+/* Closed even before p5 finishes loading: no flash of the cast underneath. */
+.curtain-panel--left { left: 0; transform: translateX(0); }
+.curtain-panel--right { right: 0; transform: translateX(0); }
+
+/* Overscan the transparent asset margins slightly. The panels overlap at the
+   centre, preventing a slit through to the scene when the curtain is closed. */
+.curtain-panel img {
+  position: absolute;
+  left: -5%;
+  top: -4%;
+  width: 110%;
+  height: 110%;
+  max-width: none;
+  object-fit: fill;
+  user-select: none;
+}
+.curtain-panel--right img { transform: scaleX(-1); }

@@ -1,0 +1,100 @@
+{
+  "name": "evelyn-stage-manager",
+  "head": {
+    "model": "woodenHeadWithClocheAndAtomicSunglasses",
+    "materials": {
+      "wood": {
+        "h": 28.7,
+        "s": 66.67,
+        "b": 54.12
+      },
+      "eyes": {
+        "h": 270,
+        "s": 24,
+        "b": 9.8
+      },
+      "hat": {
+        "h": 180,
+        "s": 60,
+        "b": 33
+      },
+      "hatband": {
+        "h": 345,
+        "s": 65,
+        "b": 30
+      },
+      "flower": {
+        "h": 345,
+        "s": 65,
+        "b": 45
+      },
+      "flowerCentre": {
+        "h": 43,
+        "s": 48,
+        "b": 72
+      },
+      "leaves": {
+        "h": 100,
+        "s": 45,
+        "b": 32
+      },
+      "frames": {
+        "h": 345,
+        "s": 55,
+        "b": 28
+      },
+      "lenses": {
+        "h": 220,
+        "s": 20,
+        "b": 12
+      },
+      "reflections": {
+        "h": 210,
+        "s": 15,
+        "b": 60
+      }
+    }
+  },
+  "body": {
+    "model": "scallopJacket",
+    "materials": {
+      "cloth": {
+        "h": 348,
+        "s": 64,
+        "b": 72
+      },
+      "jacket": {
+        "h": 180,
+        "s": 58,
+        "b": 42
+      },
+      "buttons": {
+        "h": 43,
+        "s": 48,
+        "b": 72
+      },
+      "outline": {
+        "h": 180,
+        "s": 30,
+        "b": 16
+      },
+      "thread": {
+        "h": 165,
+        "s": 15,
+        "b": 78
+      }
+    }
+  },
+  "profile": {
+    "spokenName": "Evelyn",
+    "aliases": [
+      "woman with cloche",
+      "woman in teal",
+      "lady in teal",
+      "woman with the cloche",
+      "woman with sunglasses",
+      "lady with sunglasses"
+    ],
+    "brief": "Warm, optimistic peacemaker. Assumes the best of people, sometimes at the expense of seeing the evidence."
+  }
+}
